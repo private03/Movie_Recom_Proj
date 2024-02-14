@@ -1,4 +1,4 @@
-### Movie Recommendation System Project Summary
+##### Movie Recommendation System Project Summary
 
 This project is a comprehensive implementation of a movie recommendation system using machine learning techniques, specifically collaborative filtering, to provide personalized movie suggestions to users. The system is built in Python and utilizes the Surprise library, a popular toolkit for building and analyzing recommender systems that deal with explicit rating data.
 
