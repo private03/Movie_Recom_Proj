@@ -16,6 +16,46 @@ This project is a comprehensive implementation of a movie recommendation system 
 
 - **Feedback Loop (Conceptual)**: Although not implemented in the current version, the project includes considerations for a feedback loop where users' ratings of recommended movies can be used to update and refine the model, ensuring the recommendations remain relevant and accurate over time.
 
+Environment Setup
+To run this project, Python 3.8 is required. Follow these steps to set up a virtual environment and install necessary packages:
+
+Creating a Virtual Environment
+Navigate to the Project's Root Directory: Open your terminal and change directory to the root of the project.
+
+Create a Virtual Environment: Run the following command:
+
+bash
+Copy code
+python3 -m venv myenv
+This creates a new virtual environment named myenv. You can choose a different name if desired.
+
+Activating the Virtual Environment
+On macOS/Linux:
+bash
+Copy code
+source myenv/bin/activate
+On Windows:
+cmd
+Copy code
+myenv\Scripts\activate
+Installing Dependencies
+With the virtual environment activated, install the project dependencies using:
+
+bash
+Copy code
+pip install -r requirements.txt
+Save to grepper
+This installs all necessary packages as listed in the requirements.txt file.
+
+Running the Project
+After setting up the environment and installing dependencies, you're ready to run the project. For instance, to launch the Streamlit app, execute:
+
+bash
+Copy code
+streamlit run src/streamlit_app.py
+Save to grepper
+Adjust the command based on your project structure and entry points.
+
 #### Technologies Used
 
 - **Python**: The primary programming language for the project, chosen for its rich ecosystem of data science and machine learning libraries.
