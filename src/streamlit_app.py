@@ -4,8 +4,8 @@ from collaborative_filtering import CollaborativeFiltering
 from data_processing import get_data
 from recommendation_generator import generate_recommendations_with_titles  # Updated import
 
-# Load your data
-ratings_df, movies_df = get_data('/Users/edwinjasperjr/Desktop/MRP/Small-ds/ratings.csv', '/Users/edwinjasperjr/Desktop/MRP/Small-ds/movies.csv')
+# Load your data from your specific directory path
+ratings_df, movies_df = get_data('path/to/ratings.csv', 'path/to/movies.csv')
 
 # Initialize and load your trained collaborative filtering model
 # Assuming the model is already trained

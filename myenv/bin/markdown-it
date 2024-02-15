@@ -1,4 +1,6 @@
-#!/Users/edwinjasperjr/Desktop/MRP/myenv/bin/python3.8
+#!/bin/sh
+'''exec' "/Users/edwinjasperjr/Documents/GitHub/Movie_Recom_Proj /myenv/bin/python3.8" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
