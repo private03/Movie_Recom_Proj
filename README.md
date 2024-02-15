@@ -51,6 +51,36 @@ pip install -r requirements.txt
 ```
 This installs all necessary packages as listed in the `requirements.txt` file.
 
+Certainly! It's essential to guide users on customizing paths to datasets or any other file dependencies within your project. Here's how you can integrate instructions into the `README.md` to ensure users know to adjust the paths for `ratings_df` and `movies_df` in the `streamlit_app.py`:
+
+---
+
+## Data Setup
+
+This project utilizes datasets for movie ratings and movie information, which are critical for generating recommendations. Before running the application, you'll need to ensure that the paths to these datasets are correctly set in `streamlit_app.py`.
+
+### Adjusting Dataset Paths
+
+In the `streamlit_app.py` file, the dataset paths are set to placeholder values:
+
+```python
+ratings_df, movies_df = get_data('path/to/ratings.csv', 'path/to/movies.csv')
+```
+
+You'll need to replace `'path/to/ratings.csv'` and `'path/to/movies.csv'` with the actual paths to your datasets on your system. For example:
+
+```python
+ratings_df, movies_df = get_data('/Users/yourusername/data/movies/ratings.csv', '/Users/yourusername/data/movies/movies.csv')
+```
+
+Ensure the paths point to where you've stored the `ratings.csv` and `movies.csv` files on your local machine or within your project directory.
+
+### Verifying Data Availability
+
+Before running the Streamlit application, verify that `streamlit_app.py` can access the datasets at the specified paths. Incorrect paths or missing files will result in errors when attempting to load the data or generate recommendations.
+
+---
+
 ## Running the Project
 
 After setting up the environment and installing dependencies, you're ready to run the project. For instance, to launch the Streamlit app, execute:
